@@ -7,7 +7,6 @@ import co.com.project.certification.utest.models.RegisterPassword;
 import co.com.project.certification.utest.models.RegisterUser;
 import co.com.project.certification.utest.questions.ValidateFirstName;
 import co.com.project.certification.utest.questions.ValidateMessageThirdForm;
-import co.com.project.certificate.utest.tasks.*;
 import co.com.project.certification.utest.tasks.*;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
