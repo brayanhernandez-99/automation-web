@@ -1,7 +1,7 @@
-package co.com.project.certificate.utest.tasks;
+package co.com.project.certification.utest.tasks;
 
-import co.com.project.certificate.utest.models.RegisterUser;
-import co.com.project.certificate.utest.userinterfaces.FormRegisterPersonalInformation;
+import co.com.project.certification.utest.models.RegisterUser;
+import co.com.project.certification.utest.userinterfaces.FormRegisterPersonalInformation;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

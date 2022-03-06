@@ -1,4 +1,4 @@
-package co.com.project.certificate.utest.exceptions;
+package co.com.project.certification.utest.exceptions;
 
 public class MessageNotMatchException extends AssertionError {
 

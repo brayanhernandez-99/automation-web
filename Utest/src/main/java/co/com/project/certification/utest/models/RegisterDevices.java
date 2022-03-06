@@ -1,4 +1,4 @@
-package co.com.project.certificate.utest.models;
+package co.com.project.certification.utest.models;
 
 public class RegisterDevices {
     private String brand;

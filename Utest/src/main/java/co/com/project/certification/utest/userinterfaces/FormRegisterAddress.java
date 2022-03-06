@@ -1,4 +1,4 @@
-package co.com.project.certificate.utest.userinterfaces;
+package co.com.project.certification.utest.userinterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;

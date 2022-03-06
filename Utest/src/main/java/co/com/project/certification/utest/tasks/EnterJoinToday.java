@@ -1,6 +1,6 @@
-package co.com.project.certificate.utest.tasks;
+package co.com.project.certification.utest.tasks;
 
-import co.com.project.certificate.utest.userinterfaces.PageHome;
+import co.com.project.certification.utest.userinterfaces.PageHome;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

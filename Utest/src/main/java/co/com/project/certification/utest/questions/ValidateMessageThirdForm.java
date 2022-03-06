@@ -1,6 +1,6 @@
-package co.com.project.certificate.utest.questions;
+package co.com.project.certification.utest.questions;
 
-import co.com.project.certificate.utest.userinterfaces.FormRegisterDevices;
+import co.com.project.certification.utest.userinterfaces.FormRegisterDevices;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;

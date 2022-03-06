@@ -1,13 +1,14 @@
-package co.com.project.certificate.utest.stepdefinitions;
+package co.com.project.certification.utest.stepdefinitions;
 
-import co.com.project.certificate.utest.exceptions.MessageNotMatchException;
-import co.com.project.certificate.utest.models.RegisterAddress;
-import co.com.project.certificate.utest.models.RegisterDevices;
-import co.com.project.certificate.utest.models.RegisterPassword;
-import co.com.project.certificate.utest.models.RegisterUser;
-import co.com.project.certificate.utest.questions.ValidateFirstName;
-import co.com.project.certificate.utest.questions.ValidateMessageThirdForm;
+import co.com.project.certification.utest.exceptions.MessageNotMatchException;
+import co.com.project.certification.utest.models.RegisterAddress;
+import co.com.project.certification.utest.models.RegisterDevices;
+import co.com.project.certification.utest.models.RegisterPassword;
+import co.com.project.certification.utest.models.RegisterUser;
+import co.com.project.certification.utest.questions.ValidateFirstName;
+import co.com.project.certification.utest.questions.ValidateMessageThirdForm;
 import co.com.project.certificate.utest.tasks.*;
+import co.com.project.certification.utest.tasks.*;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
