@@ -26,7 +26,7 @@ apply plugin: 'net.serenity-bdd.aggregator'
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 
-group 'com.linio'
+group 'com.booking'
 version '1.0-SNAPSHOT'
 
 dependencies {
