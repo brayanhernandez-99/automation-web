@@ -1,3 +1,11 @@
+repositories {
+    mavenCentral()
+}
+
+ext {
+    SerenityCoreVersion = "2.1.8"
+}
+
 buildscript {
     ext {
         SerenityCoreVersion = "2.1.8"
@@ -12,17 +20,14 @@ plugins {
 }
 
 apply plugin: 'java'
+apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
 group 'com.linio'
 version '1.0-SNAPSHOT'
-
-repositories {
-    mavenCentral()
-}
-
-ext {
-    SerenityCoreVersion = "2.1.8"
-}
 
 dependencies {
     implementation "junit:junit:4.12"
@@ -39,9 +44,9 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
 }
 
+gradle.startParameter.continueOnFailure = true
+
 tasks.withType(Test) {
     systemProperties = System.properties as Map<String, ?>
     maxParallelForks = Runtime.runtime.availableProcessors()
 }
-
-gradle.startParameter.continueOnFailure = true
