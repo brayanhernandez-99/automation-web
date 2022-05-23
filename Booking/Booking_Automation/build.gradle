@@ -9,13 +9,14 @@ buildscript {
 
 plugins {
     id 'java'
+    id "org.gradle.test-retry" version "1.4.0"
 }
 
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
-group 'com.co.papajohns'
+group 'com.booking'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -43,9 +44,18 @@ dependencies {
 
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
+
 gradle.startParameter.continueOnFailure = true
 
 tasks.withType(Test) {
     systemProperties = System.properties as Map<String, ?>
     maxParallelForks = Runtime.runtime.availableProcessors()
+}
+
+tasks.test{
+    retry {
+        maxRetries.set(2)
+        maxFailures.set(10)
+        failOnPassedAfterRetry.set(true)
+    }
 }

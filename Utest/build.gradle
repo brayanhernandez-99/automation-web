@@ -15,7 +15,7 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
-group 'com.booking'
+group 'com.utest'
 version '1.0-SNAPSHOT'
 
 repositories {
